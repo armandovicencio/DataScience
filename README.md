@@ -23,25 +23,21 @@ Dado que el proyecto se ejecuta en **Google Colab**, no requiere una estructura 
   - Python 3
   - Bibliotecas: `pandas`, `matplotlib` (preinstaladas en Google Colab).
 
-## Ejemplos de Gráficos e Insights
+## Ejemplos de Gráficos
 
 El análisis genera tres gráficos para visualizar el rendimiento de las tiendas. A continuación, se describen los gráficos y algunos insights típicos (los resultados exactos dependen de los datos reales):
 
 1. **Gráfico de Barras: Ingresos Totales por Tienda**
    - **Descripción**: Compara los ingresos totales de cada tienda.
-   - **Insight**: Permite identificar rápidamente la tienda con menores ingresos, un indicador clave de bajo rendimiento.
-   - **Ejemplo**: Supongamos que la Tienda 3 tiene ingresos significativamente más bajos (por ejemplo, $50,000 frente a $100,000+ de las demás), lo que sugiere que es la menos rentable.
-
+   
+   
 2. **Gráfico de Barras: Calificaciones Promedio por Tienda**
    - **Descripción**: Muestra la puntuación promedio de calificaciones de clientes (1-5) por tienda.
-   - **Insight**: Una tienda con calificaciones bajas (por ejemplo, 2.5 frente a 4.0+ de las demás) indica insatisfacción del cliente, afectando su competitividad.
-   - **Ejemplo**: La Tienda 3 podría tener una calificación promedio de 2.8, por debajo del promedio de 3.5, reforzando su bajo rendimiento.
+
 
 3. **Gráfico de Dispersión: Costo de Envío Promedio por Tienda**
    - **Descripción**: Visualiza el costo de envío promedio por tienda con etiquetas.
-   - **Insight**: Costos de envío elevados pueden disuadir a los clientes, afectando las ventas.
-   - **Ejemplo**: Si la Tienda 3 tiene un costo de envío promedio de $20 (frente a $10-12 de las demás), esto podría explicar su menor desempeño.
-
+ 
 **Otros Insights**:
 - **Categorías Más Vendidas**: Identifica la categoría principal por tienda (en ingresos). Por ejemplo, si la Tienda 3 depende excesivamente de una categoría de bajo margen, su modelo de negocio puede ser menos sostenible.
 - **Productos Más Vendidos**: Muestra los productos más vendidos por tienda (en cantidad). Una tienda con pocos productos populares podría tener un inventario menos atractivo.
